@@ -14,6 +14,7 @@
 		04221F76205304DA0058682C /* EmojiArtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04221F75205304DA0058682C /* EmojiArtVC.swift */; };
 		04221F78205305260058682C /* EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04221F77205305260058682C /* EmojiArtView.swift */; };
 		04221F7A205307F70058682C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04221F79205307F70058682C /* Utilities.swift */; };
+		04EF3BAA2055A8FD00649416 /* EmojiArtDocumentTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF3BA92055A8FD00649416 /* EmojiArtDocumentTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		04221F75205304DA0058682C /* EmojiArtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtVC.swift; sourceTree = "<group>"; };
 		04221F77205305260058682C /* EmojiArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtView.swift; sourceTree = "<group>"; };
 		04221F79205307F70058682C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		04EF3BA92055A8FD00649416 /* EmojiArtDocumentTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				04221F75205304DA0058682C /* EmojiArtVC.swift */,
 				04221F77205305260058682C /* EmojiArtView.swift */,
 				04221F79205307F70058682C /* Utilities.swift */,
+				04EF3BA92055A8FD00649416 /* EmojiArtDocumentTableVC.swift */,
 			);
 			path = EmojiArt;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				04221F632053048B0058682C /* AppDelegate.swift in Sources */,
 				04221F76205304DA0058682C /* EmojiArtVC.swift in Sources */,
 				04221F7A205307F70058682C /* Utilities.swift in Sources */,
+				04EF3BAA2055A8FD00649416 /* EmojiArtDocumentTableVC.swift in Sources */,
 				04221F78205305260058682C /* EmojiArtView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
