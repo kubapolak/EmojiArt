@@ -118,6 +118,23 @@
                                             <outlet property="label" destination="bCe-iK-mON" id="sgd-Zi-qWd"/>
                                         </connections>
                                     </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DropPlaceholderCell" id="dye-1d-hHD">
+                                        <rect key="frame" x="90" y="0.0" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="BA9-Xs-LPt">
+                                                    <rect key="frame" x="30" y="30" width="20" height="20"/>
+                                                </activityIndicatorView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="BA9-Xs-LPt" firstAttribute="centerX" secondItem="dye-1d-hHD" secondAttribute="centerX" id="Ocr-Z5-cAD"/>
+                                            <constraint firstItem="BA9-Xs-LPt" firstAttribute="centerY" secondItem="dye-1d-hHD" secondAttribute="centerY" id="T3m-UX-gL2"/>
+                                        </constraints>
+                                    </collectionViewCell>
                                 </cells>
                             </collectionView>
                         </subviews>
