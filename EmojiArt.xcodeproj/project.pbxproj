@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04002A772057029D0006B465 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04002A762057029D0006B465 /* EmojiCollectionViewCell.swift */; };
+		041C4E32205C2A8B00BB57E8 /* EmojiArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C4E31205C2A8B00BB57E8 /* EmojiArt.swift */; };
 		04221F632053048B0058682C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04221F622053048B0058682C /* AppDelegate.swift */; };
 		04221F682053048B0058682C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04221F662053048B0058682C /* Main.storyboard */; };
 		04221F6A2053048B0058682C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04221F692053048B0058682C /* Assets.xcassets */; };
@@ -15,11 +16,13 @@
 		04221F76205304DA0058682C /* EmojiArtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04221F75205304DA0058682C /* EmojiArtVC.swift */; };
 		04221F78205305260058682C /* EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04221F77205305260058682C /* EmojiArtView.swift */; };
 		04221F7A205307F70058682C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04221F79205307F70058682C /* Utilities.swift */; };
+		04AA57402057E495006D887C /* TextFieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA573F2057E495006D887C /* TextFieldCollectionViewCell.swift */; };
 		04EF3BAA2055A8FD00649416 /* EmojiArtDocumentTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF3BA92055A8FD00649416 /* EmojiArtDocumentTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04002A762057029D0006B465 /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		041C4E31205C2A8B00BB57E8 /* EmojiArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArt.swift; sourceTree = "<group>"; };
 		04221F5F2053048B0058682C /* EmojiArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04221F622053048B0058682C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04221F672053048B0058682C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +32,7 @@
 		04221F75205304DA0058682C /* EmojiArtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtVC.swift; sourceTree = "<group>"; };
 		04221F77205305260058682C /* EmojiArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtView.swift; sourceTree = "<group>"; };
 		04221F79205307F70058682C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		04AA573F2057E495006D887C /* TextFieldCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCollectionViewCell.swift; sourceTree = "<group>"; };
 		04EF3BA92055A8FD00649416 /* EmojiArtDocumentTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocumentTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +74,8 @@
 				04221F79205307F70058682C /* Utilities.swift */,
 				04EF3BA92055A8FD00649416 /* EmojiArtDocumentTableVC.swift */,
 				04002A762057029D0006B465 /* EmojiCollectionViewCell.swift */,
+				04AA573F2057E495006D887C /* TextFieldCollectionViewCell.swift */,
+				041C4E31205C2A8B00BB57E8 /* EmojiArt.swift */,
 			);
 			path = EmojiArt;
 			sourceTree = "<group>";
@@ -157,8 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04221F632053048B0058682C /* AppDelegate.swift in Sources */,
+				04AA57402057E495006D887C /* TextFieldCollectionViewCell.swift in Sources */,
 				04002A772057029D0006B465 /* EmojiCollectionViewCell.swift in Sources */,
 				04221F76205304DA0058682C /* EmojiArtVC.swift in Sources */,
+				041C4E32205C2A8B00BB57E8 /* EmojiArt.swift in Sources */,
 				04221F7A205307F70058682C /* Utilities.swift in Sources */,
 				04EF3BAA2055A8FD00649416 /* EmojiArtDocumentTableVC.swift in Sources */,
 				04221F78205305260058682C /* EmojiArtView.swift in Sources */,
